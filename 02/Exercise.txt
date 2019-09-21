@@ -1,0 +1,8 @@
+cd Desktop
+mkdir MH8811_02
+cd C:\Users\WX\Desktop\MH8811_02
+New-Item -Path . -Name "my file.txt" -ItemType "file"
+cd ..
+Remove-Item –path 'C:\Users\WX\Desktop\MH8811_02' –recurse
+
+

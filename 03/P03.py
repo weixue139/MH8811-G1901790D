@@ -34,7 +34,8 @@ def func3():
 while True:
     #ask user input choice and use conditions to call the function
     choice=input("Please input a number 1, 2 or 3 to choose your sub-program, 4 to quit:")
-    choice=int(choice)
+    #use float() to recognise input number with decimal places to keep executing the program till a valid input
+    choice=float(choice)
     if choice==1:
         func1()    
     elif choice==2:

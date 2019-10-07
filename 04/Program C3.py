@@ -63,7 +63,7 @@ def my_median():
     if len(L)%2 !=0:
         med=L[r]
     if len(L)%2 ==0:
-        med=(L[r-2]+L[r-1])/2
+        med=(L[r-1]+L[r])/2
  
     return med
     

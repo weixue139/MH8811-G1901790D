@@ -47,10 +47,10 @@ def my_median():
  
     #to check the reminder of the length, and use condition to assign median value
     if len(L)%2 !=0:
-        med=L[r-1]
+        med=L[r]
     if len(L)%2 ==0:
         med=(L[r-1]+L[r])/2
-   
+      
     return med
 
 #define function to find the range, use function of max and min here
